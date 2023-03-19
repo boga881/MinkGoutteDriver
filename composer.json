@@ -1,5 +1,5 @@
 {
-    "name":         "behat/mink-goutte-driver",
+    "name":         "boga881/mink-goutte-driver",
     "description":  "Goutte driver for Mink framework",
     "keywords":     ["goutte", "headless", "testing", "browser"],
     "homepage":     "https://mink.behat.org/",
@@ -15,9 +15,9 @@
     ],
 
     "require": {
-        "php":                           ">=7.2",
-        "behat/mink-browserkit-driver":  "^2.0@dev",
-        "fabpot/goutte":                 "^4.0"
+        "php":                                      ">=7.2",
+        "friends-of-behat/mink-browserkit-driver" : "^1.4",
+        "fabpot/goutte":                            "^4.0"
     },
 
     "require-dev": {
